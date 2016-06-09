@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>Etsy</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+
+<!-- // BODY // -->
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+
+    <!-- // HEADER // -->
+
+      <div class="header col-md-12">
+        <!-- etsy logo -->
+        <div class="logo col-md-1">
+          <a href="https://www.etsy.com/?ref=lgo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Etsy_logo.png" />
+          </a>
+        </div>
+        <!-- search -->
+        <div class="search col-md-4">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search for...">
+            <span class="input-group-btn">
+              <button class="search btn btn-default" type="button">Search</button>
+            </span>
+          </div>
+        </div>
+        <!-- toplinks -->
+        <div class="top-links col-md-3">
+          <div class="sell">
+            <a href="https://www.etsy.com/sell?ref=hdr&from_page=https%3A%2F%2Fwww.etsy.com%2Fcart">
+              <button class="nav btn btn-default">Sell on Etsy</button>
+            </a>
+          </div>
+          <div class="register">
+            <a href="https://www.etsy.com/?ref=lgo">
+              <button class="nav btn btn-default">Register</button>
+            </a>
+          </div>
+          <div class="sign_in">
+            <a href="https://www.etsy.com/?ref=lgo">
+              <button class="nav btn btn-default">Sign In</button>
+            </a>
+          </div>
+        <!-- shopping cart -->
+          <div class="cart">
+            <ul>
+              <li><a class="cart-link" href="https://www.etsy.com/cart?ref=hdr"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+              <li><a href="https://www.etsy.com/cart?ref=hdr"><span>Cart</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+        <!-- sub header list -->
+      <div class="col-md-12 categories_list">
+        <ul class="col-md-9">
+          <a href="#"><li>Clothing &amp; Accesories</li></a>
+          <a href="#"><li>Jewelry</li></a>
+          <a href="#"><li>Crafting Supplies &amp; Tools</li></a>
+          <a href="#"><li>Weddings</li></a>
+          <a href="#"><li>Entertainment</li></a>
+          <a href="#"><li>Home &amp; Living</li></a>
+          <a href="#"><li>Kids &amp; Baby</li></a>
+          <a href="#"><li>Vintage</li></a>
+        </ul>
+      </div>
+
+
+    <!-- // CONTENT // -->
+
+    <!-- show results side nav -->
+  <div class="content col-md-12">
+    <div class="col-md-2">
+      <span>Show results for:</span>
+        <ul class="side_show">
+          <span class="first">All Categories</span>
+            <a href="#"><li>Clothing</li></a>
+            <a href="#"><li>Paper &amp; Party Supplies</li></a>
+            <a href="#"><li>Craft Supplies &amp; Tools</li></a>
+            <a href="#"><li>Home &amp; Living</li></a>
+            <a href="#"><li>Accessories</li></a>
+            <a href="#"><li>Jewelry</li></a>
+            <a href="#"><li>Art &amp; Collectibles</li></a>
+            <a href="#"><li>Bath &amp; Beauty</li></a>
+            <a href="#"><li>Pet Supplies</li></a>
+            <a href="#"><li>Bags &amp; Purses</li></a>
+            <a href="#"><li>Electronics &amp; Accessories</li></a>
+            <a href="#"><li>Wedding</li></a>
+            <a href="#"><li>Shoes</li></a>
+            <a href="#"><li>Toys &amp; Games</li></a>
+            <a href="#"><li>Books, Movies &amp; Music</li></a>
+        </ul>
+      <!-- refine your search side nav -->
+      <span>Refine your search</span>
+        <ul class="side_refine">
+          <a href="#"><li class="first item">Item Type</li></a>
+          <a href="#">
+            <li>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="...">All Items
+                </label>
+              </div>
+            </li>
+          </a>
+        <a href="#">
+          <li>
+            <div class="radio">
+              <label>
+                <input type="radio" name="blankRadio" id="blankRadio2" value="option1" aria-label="...">Handmade
+              </label>
+            </div>
+          </li>
+        </a>
+        <a href="#">
+          <li>
+            <div class="vintage radio">
+              <label>
+                <input type="radio" name="blankRadio" id="blankRadio3" value="option1" aria-label="...">Vintage
+              </label>
+            </div>
+          </li>
+        </a>
+      <div class="price-section">Price ($)
+        <form class="form-inline">
+  <div class="form-group">
+    <input type="text" class="form1" id="exampleInputName2" placeholder="Low">
+  </div>
+  <span>to</span>
+  <div class="form-group">
+    <input type="email" class="form1" id="exampleInputEmail2" placeholder="High">
+  </div>
+  <button type="submit" class="btn btn-default"><span class="caret"></span></button>
+</form>
+      </div>
+      <div class="color-section">Filter by color <br />
+        <div class="square red"></div>
+        <div class="square orange"></div>
+        <div class="square yellow"></div>
+        <div class="square green"></div>
+        <div class="square blue"></div>
+        <div class="square purple"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+      </div>
+      <div class="order-section">Ordering options
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Excepts Etsy gift cards
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Customizable
+          </label>
+        </div>
+      </div>
+      <div class="location-section">Shop Location
+        <div class="radio">
+          <label>
+            <input type="radio" name="blankRadio" id="blank" value="option1" aria-label="...">Anywhere
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="blankRadio" id="blankRadio" value="option1" aria-label="...">United States
+          </label>
+        </div>
+        <span class="custom-ship">Choose a custom location</span>
+      </div>
+      <div class="ship-section">Ship to
+        <select class="form-control">
+          <option>United States</option>
+          <option>The Iron Yard</option>
+          <option>Disney World</option>
+          <option>My House</option>
+        </select>
+      </div>
+      </ul>
+    </div>
+
+  <!-- middle photo gallery -->
+    <span class="search-results"><a href="#">All categories</a> &gt; "ugly christmas sweater"(9,370 Results)</span><span class="sort">Sort by: <a href="#">Relevency</a><div class="caret"></div></span>
+      <div class="container col-md-10">
+
+          <!-- // TEMPLATE // -->
+
+      </div>
+    </div>
+
+</div>
+</div>
+
+    <!-- // SCRIPTS // -->
+
+    <script id="product-template" type="text/x-handlebars-template">
+      <div class="tile-wrap1 col-md-3">
+        <div class="tile">
+          <div class="image-container">
+            <a href="{{url}}">
+              <img class="image-product" src="{{Images.0.url_fullxfull}}" />
+            </a>
+          </div>
+          <ul>
+            <li class="overflow">{{title}}</li>
+            <li>
+              <span class="seller"><a href="{{Shop.url}}">{{Shop.shop_name}}</a></span>
+              <span class="price">{{price}}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+    </script>
+    <script src="js/bundle.js"></script>
+
+  </body>
+</html>
